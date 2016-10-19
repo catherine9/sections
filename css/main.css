@@ -28,13 +28,21 @@ img {
 div {
   display: inline-block;
   max-width: 25em;
-  margin-left: 1em;
-  margin-right: 1em;
+  vertical-align: middle;
+}
+
+.text {
+  display: inline-block;
+  max-width: 25em;
+  padding-left: 1em;
+  padding-right: 1em;
+  vertical-align: middle;
   text-align: left;
 }
 
 article {
-  padding: 2em;
+  padding: 2.9em 1em;
+  display: block;
   background-color: #f2f2f2;
 }
 
