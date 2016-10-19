@@ -9,7 +9,7 @@ html {
 }
 
  title {
-  text-decoration: bold;
+  text-decoration: none;
   list-style-type: none;
 
 }
@@ -28,7 +28,7 @@ div {
   max-width: 25em;
   margin-left: 1em;
   margin-right: 1em;
-  vertical-align: middle;
+  text-align: left;
 }
 
 article {
