@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box;
+  background-color: #333;
+  line-height: 1.5;
+  font-family: "Lato";
+  border: 3px solid #595652;
+  text-align: center;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+ title {
+  text-decoration: bold;
+  list-style-type: none;
+
+}
+
+body {
+  margin: 1.5rem;
+  padding: .4em;
+  background-color: #666;
+}
