@@ -41,7 +41,8 @@ article {
   display: inline-block;
   padding: .5em .75em;
   border-radius: 8px;
-  border-width: 3px
+  border-width: 3px;
+  text-decoration: none;
 }
 
 .btn-ghost {
