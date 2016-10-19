@@ -1,14 +1,14 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
- title {
+title {
   text-decoration: none;
   list-style-type: none;
 
@@ -22,10 +22,11 @@ img {
   width: 100%;
   max-width: 25em;
   display: block;
+  text-align: center;
 }
 
 div {
-  display:  inline-block;
+  display: inline-block;
   max-width: 25em;
   margin-left: 1em;
   margin-right: 1em;
@@ -34,4 +35,9 @@ div {
 
 article {
   padding: 2em;
+}
+
+.btn {
+  display: inline-block;
+  padding: .5em .75em;
 }
