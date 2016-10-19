@@ -40,4 +40,12 @@ article {
 .btn {
   display: inline-block;
   padding: .5em .75em;
+  border-radius: 8px;
+  border-width: 3px
+}
+
+.btn-ghost {
+  background-color: #fff;
+  color: #000;
+  border: solid 3px #000;
 }
